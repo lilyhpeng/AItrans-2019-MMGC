@@ -1,0 +1,19 @@
+20190509
+code-v2:
+1.use discounted throughput predict
+2.add thr_mean,thr_variance,sum of skip time to state info
+3.8 actions
+best model:
+148000:1725
+163000:1737
+125000:1384
+108000:1310
+114000:1648
+124000:1433
+101000:1623
+188000:1862
+187000:1790
+183000:1749
+162000:1750
+summary20190510:
+24000:1778

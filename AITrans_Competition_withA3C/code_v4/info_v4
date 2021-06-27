@@ -1,0 +1,11 @@
+20190516
+use code-v4(trained on chengyu's computer)
+add latency_limit(2.5,2.8,3.0.3.5) to actions(32 actions)
+use all network trace to train,concluding high,medium,low
+change fixed_env.py:use a random video every time after finishing downloading a video(six videos)
+
+20190520:
+start from 20190516:66000 model
+use only sports video
+change entropy weight
+

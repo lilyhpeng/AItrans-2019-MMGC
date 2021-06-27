@@ -1,0 +1,22 @@
+这个代码延续了第一届比赛的那个风格，所以可能看起来有点乱
+但是你要知道，我作为老coder是不可能写出这么烂的代码的！
+
+文件使用说明：
+train.py：训练文件
+NETWORK_TRACES,VIDEO_TRACES：更改这两个变量可以选择数据集
+
+run.py：测试文件，测试训练模型的最终结果，由主办方提供（与ABR.py绑定）
+
+ABR.py：ABR算法文件
+NN_MODEL：更改该变量可以选择测试时使用的模型，已提供example
+
+auto_run_train.py：由于run.py每次只能测试一个模型，当训练出几百个模型的时候使用该文件进行测试
+start_turn, end_turn对应模型的编号，嫌串行运行太慢可以并行运行（也就是多开几个terminal并修改这两个变量）
+
+auto_ABR_train.py：辅助auto_run_train.py，不用管
+
+
+get_network.py: 可以通过已有的网络轨迹构造新的网络轨迹
+
+draw_network.py：可以画出network_trace中吞吐量的情况，看一下新构造出的网络轨迹是个什么样子
+

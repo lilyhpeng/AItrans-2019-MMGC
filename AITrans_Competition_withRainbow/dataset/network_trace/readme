@@ -1,0 +1,3 @@
+fixed,high,medium,low:all network traces offered by competition
+train,test:use the four folders,each one:17 in train,3 in test,so we have 68 training traces and 12 test traces
+final_train:we need to upload the final model trained,so finally we use all traces to train(80 traces)
